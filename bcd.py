@@ -153,13 +153,6 @@ label_image_5=Label(window, text="Predicting.....")
 btn_image_5= create_button(window, "Run", lambda: inference(parameters_))
 label_image_5.pack()
 btn_image_5.pack()
-"""
-test_email = Text(window, height=1)
-test_email.pack()
-
-enter_email_btn = create_button(window, "Enter Email", get_email)
-enter_email_btn.pack()
-"""
 
 email_entry = Entry(window)
 email_entry.pack()
@@ -168,7 +161,7 @@ email_entry.bind("<Return>")
 
 enter_email_btn = create_button(window, "Enter Email", get_email)
 enter_email_btn.pack()
-print(toaddr+"45454")
+
 
 mail_btn = create_button(window, "Send Email", lambda: automail_btn(list_of_image_paths))
 mail_btn.pack()
