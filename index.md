@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Breast Cancer Detection
 
-You can use the [editor on GitHub](https://github.com/thevoxium/BCD-Desktop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![Python Versions](https://img.shields.io/pypi/pyversions/yt2mp3.svg)](https://pypi.python.org/pypi/yt2mp3/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Our aim is to make a Brest Cancer Detection application using Deep Learning. In the later stages of the project, we aim to integrate Super-Resolution and Grad-CAM to visualise the predictions made by the model. This project also has an automatic mailing system to directly email the reports and scans to patients with just a click. We plan to make the desktop app using Tkinter to keep it as minimal as possible. Furthermore, we are planning to deliever a web application built using Flask and a modern frontend to make it accessible to everyone without the need to install anything.
 
-### Markdown
+More details about the idea and some notes can be found [here](https://www.notion.so/Deep-Learning-Project-c40d22f8e1cf45c384e353e403f56918)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thevoxium/BCD-Desktop/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Contributors
+* Anshul Sharma, thevoxium@gmail.com
+* Aniket Kumar Jha, Aniketjha646@gmail.com
+* And you can be here too 😄  
