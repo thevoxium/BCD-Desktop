@@ -42,7 +42,7 @@ def get_email():
 def openfilename():  
     # open file dialog box to select image 
     # The dialogue box has a title "Open" 
-    filename = filedialog.askopenfilename(title ='Open') 
+    filename = filedialog.askopenfilename(title ='Upload the Scanned Images') 
     return filename
 
 #To remove seek and read attribute error with PIL
