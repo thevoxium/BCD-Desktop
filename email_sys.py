@@ -5,16 +5,16 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 
-fromaddr = "thevoxium@gmail.com"
-frompass = "anshul19@123#"
+fromaddr = "thevoxium@bugbear646.bcd"
+frompass = "********************"
 
 def auto_email(toaddr, file_path_list, b0, b1, b2):
     toaddr = toaddr
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
-    msg['Subject'] = "Your Mammograms and the Report of the Scans"
-    body = "Hello, these are the results: Birads 0: "+str(b0)+", Birads 1: "+str(b1)+", Birads 2: "+str(b2)
+    msg['Subject'] = "Mammograms Scans | Birads Classified Output"
+    body = "Hello, these are your Scan Results: Birads 0: "+str(b0)+", Birads 1: "+str(b1)+", Birads 2: "+str(b2)
     msg.attach(MIMEText(body, 'plain'))
 
     i=1
@@ -33,4 +33,5 @@ def auto_email(toaddr, file_path_list, b0, b1, b2):
     s.login(fromaddr, frompass)
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
+    print("Mail sent!")
     s.quit()

@@ -9,5 +9,5 @@ More details about the idea and some notes can be found [here](https://www.notio
 
 #### Contributors
 * Anshul Sharma, thevoxium@gmail.com
-* Aniket Kumar Jha, Aniketjha646@gmail.com
+* Aniket Jha, bugbear646@gmail.com
 * And you can be here too 😄  
